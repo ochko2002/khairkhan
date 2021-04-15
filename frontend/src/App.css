@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=lato@display=swap");
+
+.app {
+  padding-left: 220px;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.home,
+.products,
+.dashboard,
+.categories,
+.employees,
+.reports {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
